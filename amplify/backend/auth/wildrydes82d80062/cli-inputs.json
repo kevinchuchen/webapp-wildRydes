@@ -1,0 +1,44 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "wildrydes82d80062_identitypool_82d80062",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "wildry82d80062",
+    "userPoolName": "wildrydes82d80062_userpool_82d80062",
+    "autoVerifiedAttributes": [
+      "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+      "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+      "email"
+    ],
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+      "email"
+    ],
+    "userpoolClientReadAttributes": [
+      "email"
+    ],
+    "userpoolClientLambdaRole": "wildry82d80062_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "82d80062",
+    "resourceName": "wildrydes82d80062",
+    "authSelections": "identityPoolAndUserPool",
+    "useDefault": "default",
+    "userPoolGroupList": [],
+    "serviceName": "Cognito",
+    "useEnabledMfas": false
+  }
+}

@@ -1,5 +1,6 @@
 {
     "version": 1,
     "userPoolId": "us-east-1_i8p45QzHs",
-    "webClientId": "f5cqan5tlq8g0gb96b0bs98"
+    "webClientId": "f5cqan5tlq8g0gb96b0bs98",
+    "nativeClientId": "f5cqan5tlq8g0gb96b0bs98"
 }

@@ -1,1 +1,1 @@
-{"version": 1,"userPoolId": "$secrets | jq -r .userPoolId","webClientId": "$secrets | jq -r .webClientId","nativeClientId": "$secrets | jq -r .nativeClientId"}
+{\"version\": 1,\"userPoolId\": \"$secrets | jq -r .userPoolId\",\"webClientId\": \"$secrets | jq -r .webClientId\",\"nativeClientId\": \"$secrets | jq -r .nativeClientId\"}

@@ -2,6 +2,6 @@
 
 module.exports = {
     api: {
-        invokeUrl: '${API_GATEWAY_INVOKEURL}'
+        invokeUrl: process.env.VUE_APP_APIGW_INVOKEURL
     }
 }
